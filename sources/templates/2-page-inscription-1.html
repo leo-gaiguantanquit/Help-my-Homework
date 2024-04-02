@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpMyHomeWork</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CSS/CSS-1.css') }}" />
+    <link rel="icon" type="image/png" sizes="64x64" src="{{ url_for('static', filename='images/1.png') }}">
+</head>
+<body>
+    <img src="{{ url_for('static', filename='images/2.png') }}" id="logo2"/>
+    <div>
+        <form>
+            <label class="label-mail-mdp">Prénom</label>
+            </br>
+            <input class="mail-mdp input-txt-center" type="text"></p>
+            <p>
+            <label class="label-mail-mdp">Nom de famille</label>
+            </br>
+            <input class="mail-mdp input-txt-center" type="text"></p>
+            <p>
+            <label class="label-mail-mdp">Date de naissance</label>
+            </br>
+            <input class="mail-mdp input-txt-center" type="date"></p>
+            <p>
+            <label class="label-mail-mdp">N° de téléphone</label>
+            </br>
+            <input class="mail-mdp input-txt-center" type="tel"></p>
+            <p>
+            <label class="label-mail-mdp">Adresse mail</label>
+            </br>
+            <input class="mail-mdp input-txt-center" type="email"></p>
+            <p>
+            <label class="label-mail-mdp">Mot de passe (8 caractères min)</label>
+            </br>
+            <input class="mail-mdp" type="password" minlength="8" maxlength="18"></p>
+            <label class="label-mail-mdp">Confirmez mot de passe</label>
+            </br>
+            <input class="mail-mdp" type="password"></p>
+        </form>
+        <button id="btn-ins2">
+            Inscription
+        </button>
+        </br>
+        <p id="deja-ins-con">
+            Déjà inscrit ?
+        </p>
+        <form action="{{ url_for('connexion') }}">
+            <button id="btn-con2">
+                Se connecter
+            </button>
+        </form>
+    </div>    
+</body>
