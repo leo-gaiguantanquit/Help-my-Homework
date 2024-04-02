@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* palette de couleur (du plus clair au plus foncé) :
+#04BBFF
+#0594D0
+#007198
+#003C57
+#051C24 */
+
+body{
+    font-family: Montserrat !important;
+    background-color: rgb(19, 19, 19) !important;
+    text-align: center !important;
+}
+
+.logo{
+    align-self: center;
+}
+
+.label-mail-mdp{
+    color: white;
+}
+
+.mail-mdp{
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: rgb(19, 19, 19);
+
+    margin-top: 0.7%;
+}
+
+#input-checkbox:hover{
+    cursor: pointer;
+}
+#checkbox{
+    color: rgb(200, 200, 200);
+}
+
+#div-erreur{
+    background-color: red;
+}
+.erreur{  /* classe pour tous les messages d'erreur */
+    color: white;
+    text-align: center;
+}
+
+#div-btn-con{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+#btn-con{
+    font-size: 2.8rem;
+    color: rgb(255, 255, 255);
+    background-color:#007198;
+    border: 0.17rem solid #003C57;
+    border-radius: 0.4rem;
+}
+#btn-con:hover{
+    background-color: rgb(211, 211, 211);
+    color: #003C57;
+    border: 0.17rem solid #003C57;
+    cursor: pointer;
+}
+
+#div-btn-ins{
+    margin-top: 0.7rem;
+}
+#btn-ins{
+    font-size: 0.8rem;
+    color: white;
+    background-color: #003C57;
+    border: 0.17rem solid #051C24;
+    border-radius: 0.3rem;
+}
+#btn-ins:hover{
+    cursor: pointer;
+    color: #003C57;
+    background-color: white;
+    border: 0.17rem solid #003C57;
+}
+/* Jusqu'ici c'est pour la page de connexion, ce qui suit sera pour la page d'inscription
+et je noterais un 2 à la fin du nom de chaque nouvelle classe et id. */
+
+#logo2{
+    block-size: 380px;
+    margin-bottom: 0.5%;
+}
+
+#btn-ins2{
+    margin-top: 1.5%;
+    font-size: 2.8rem;
+    color: rgb(255, 255, 255);
+    background-color:#007198;
+    border: 0.17rem solid #003C57;
+    border-radius: 0.4rem;
+}
+#btn-ins2:hover{
+    background-color: rgb(211, 211, 211);
+    color: #003C57;
+    border: 0.17rem solid #003C57;
+    cursor: pointer;
+}
+
+#deja-ins-con{
+    color: white;
+}
+
+#btn-con2{
+    font-size: 0.9rem;
+    color: white;
+    background-color: #003C57;
+    border: 0.17rem solid #051C24;
+    border-radius: 0.3rem;
+}
+#btn-con2:hover{
+    cursor: pointer;
+    color: #003C57;
+    background-color: white;
+    border: 0.17rem solid #003C57;
+}
+
+.input-txt-center{
+    text-align: center;
+}
